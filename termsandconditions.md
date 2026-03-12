@@ -5,12 +5,7 @@ Agustin Prats is committed to ensuring that the app is as useful and efficient a
 
 The MyTides app stores and processes personal data that you have provided to us, in order to provide my Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the MyTides app won’t work properly or at all.
 
-The app does use third party services that declare their own Terms and Conditions.
-
-Link to Terms and Conditions of third party service providers used by the app
-
-*   [Amplitude](https://amplitude.com/amplitude-security-and-privacy/privacy)
-*   [RevenueCat](https://www.revenuecat.com/privacy)
+The app does not use third party services that declare their own Terms and Conditions.
 
 You should be aware that there are certain things that Agustin Prats will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Agustin Prats cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.
 
