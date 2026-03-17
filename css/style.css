@@ -9,9 +9,9 @@
 }
 
 :root {
-  --bg: #111827;
-  --bg-elevated: #1e293b;
-  --bg-subtle: #1a2234;
+  --bg: #243044;
+  --bg-elevated: #2e3d56;
+  --bg-subtle: #293751;
   --accent: #5eb5f7;
   --accent-light: #93d0ff;
   --accent-glow: rgba(94, 181, 247, 0.12);
@@ -71,7 +71,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(17, 24, 39, 0.85);
+  background: rgba(36, 48, 68, 0.85);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
@@ -356,7 +356,7 @@ img {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   font-size: 0.9375rem;
-  color: var(--text-secondary);
+  color: var(--text);
   transition: border-color 0.2s, background 0.2s;
 }
 
