@@ -371,6 +371,46 @@ img {
   opacity: 0.7;
 }
 
+/* ─── Trust ──────────────────────────────────────────────────────────────── */
+
+.trust {
+  padding: 60px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.trust-grid {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.trust-number {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(180deg, #fff 30%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.trust-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 /* ─── CTA ────────────────────────────────────────────────────────────────── */
 
 .cta {
@@ -379,10 +419,19 @@ img {
 }
 
 .cta-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 8px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  letter-spacing: -0.02em;
+}
+
+.cta-subtitle {
+  font-size: 1.0625rem;
   color: var(--text-secondary);
+  max-width: 480px;
+  margin-inline: auto;
+  line-height: 1.7;
+  margin-bottom: 8px;
 }
 
 /* ─── Page (Privacy, Terms) ──────────────────────────────────────────────── */
@@ -710,6 +759,10 @@ img {
 
   .nav-links {
     gap: 16px;
+  }
+
+  .trust-grid {
+    gap: 32px;
   }
 
   .footer-top {

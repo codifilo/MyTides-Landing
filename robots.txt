@@ -1,1 +1,4 @@
 User-agent: *
+Allow: /
+
+Sitemap: https://mytides.xyz/sitemap.xml
